@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+   
+    <div  id="wrapper">
+      <div class="parants" >
+        <form action="">
+            <div>
+            <label for="">Name</label>
+            <input id="names" type="text" autofocus placeholder="enter your name" required></div>
+            <div>
+            <label for="">Email</label>
+            <input id="email" type="email" placeholder="enter your email" >
+        </div>
+            <button id="btn">sign in</button>
+        </form>
+    </div>
+      <div class="display" id="quiz">
+        <p class="timer" ></p>
+        <p class="question"></p>
+        <div id="options">
+            <p></p>
+            <p></p> 
+            <p></p>
+            <p></p>
+        </div>
+      </div>
+
+      <div id="counter">
+        
+      </div>
+
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1023px) and (min-width: 768px)
+{
+#options p
+{
+    margin:5px;
+    width:47%;
+
+}
+}
+@media only screen and (max-width: 768px) and (min-width: 522px)
+{
+    #options p
+    {
+        margin:4px;
+        width:44%;
+    
+    }
+}
+@media only screen and (max-width: 522px) and (min-width: 320px)
+{
+    #options p
+    {
+        margin:2px;
+        width:42%;
+    
+    }
+}
